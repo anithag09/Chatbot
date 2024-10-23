@@ -44,9 +44,9 @@ To set up the project locally, follow these steps:
 
 ## Usage
 To run the Stock Analysis Chatbot, use the following command:
-    ```bash
+  
     streamlit run Chatbot.py
-    ```
+ 
 Once the application is running, open your web browser and navigate to http://localhost:8501 to interact with the chatbot.
 
 ## Interacting with the Chatbot
