@@ -1,0 +1,167 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #2c3e50;
+    color: white;
+}
+
+[data-testid="stSidebar"] .css-17eq0hr {
+    color: white;
+}
+
+[data-testid="stSidebar"] .css-1d391kg {
+    background-color: #1abc9c;
+    border-radius: 10px;
+}
+
+/* Updated sidebar button styles */
+[data-testid="stSidebar"] [data-testid="baseButton-secondary"] {
+    color: black !important;
+}
+
+[data-testid="stSidebar"] button {
+    color: black !important;
+}
+
+[data-testid="stSidebar"] button span {
+    color: black !important;
+}
+
+[data-testid="stSidebar"] .stButton button {
+    color: black !important;
+}
+
+/* Additional specificity for dropdown buttons */
+[data-testid="stSidebar"] [data-baseweb="select"] span {
+    color: black !important;
+}
+
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] h1 {
+    color: white;
+}
+
+/* Metrics */
+.stMetric {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+/* Tabs Styling */
+[data-testid="stTabs"] button {
+    background-color: #34495e;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: none;
+}
+
+[data-testid="stTabs"] button:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+
+[data-testid="stTabs"] .css-5k3vgb {
+    color: white;
+}
+
+/* Chat Interface */
+.stChatMessage {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.stChatMessage.user {
+    background-color: #dff9fb;
+    text-align: left;
+    color: #130f40;
+    border: 1px solid #badc58;
+}
+
+.stChatMessage.assistant {
+    background-color: #f9ca24;
+    text-align: left;
+    color: #2f3640;
+    border: 1px solid #f0932b;
+}
+
+/* Headers and Titles */
+h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+/* Buttons */
+button {
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+/* Custom CSS for Streamlit */
+button[kind="primary"] {
+    color: black;
+    background-color: #f0f0f0;
+    border: 1px solid #000000;
+}
+
+/* Plotly Charts */
+.plotly {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ecf0f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #34495e;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1abc9c;
+}
+
+/* Input Fields */
+textarea, input {
+    background-color: #f0f0f0;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    font-family: 'Roboto', sans-serif;
+    color: #bdc3c7;
+    margin-top: 20px;
+    text-align: center;
+}
