@@ -29,24 +29,23 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/StockAnalysisChatbot.git
-   cd StockAnalysisChatbot
+   git clone https://github.com/anithag09/StockAnalysisChatbot.git
    ```
    
 2. Create a virtual environment:
    ```bash
-  python -m venv venv
-  source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-  ```
+   python -m venv venv
+   source venv/bin/activate
+   ```
 3. Install the Required Packages:
-   ```bash
+    ```bash
     pip install -r requirements.txt
-  ```
+    ```
 
 ## Usage
 To run the Stock Analysis Chatbot, use the following command:
     ```bash
-    streamlit run Stock_chatbot_app.py
+    streamlit run Chatbot.py
     ```
 Once the application is running, open your web browser and navigate to http://localhost:8501 to interact with the chatbot.
 
